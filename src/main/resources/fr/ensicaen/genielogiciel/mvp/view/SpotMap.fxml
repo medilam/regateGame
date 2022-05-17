@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="788.0" styleClass="waterA" stylesheets="@SpotMap2.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.ensicaen.genielogiciel.mvp.view.GameView">
+    <children>
+        <Canvas fx:id="_canvas" height="445.0" layoutX="0.0" layoutY="55.0" width="788.0" AnchorPane.topAnchor="55.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Canvas>
+      <Label fx:id="_speedLabel" alignment="CENTER" layoutX="25.0" layoutY="14.0" prefHeight="26.0" prefWidth="66.0" styleClass="boardLabel">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label fx:id="_directionLabel" alignment="CENTER" layoutX="99.0" layoutY="14.0" prefHeight="26.0" prefWidth="59.0" styleClass="boardLabel" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+         </Label>
+        <ButtonBar layoutX="139.0" layoutY="14.0" prefHeight="29.0" prefWidth="554.0" AnchorPane.bottomAnchor="50.0" AnchorPane.topAnchor="500.0">
+            <buttons>
+                <Button fx:id="_playBtn" focusTraversable="false" mnemonicParsing="false" onAction="#resume" prefHeight="18.0" prefWidth="341.0" text="Jouer" />
+                <Button fx:id="_stopBtn" focusTraversable="false" onAction="#stop" layoutX="622.0" layoutY="17.0" mnemonicParsing="false" text="Pause" />
+                <Button fx:id="_replay" focusTraversable="false" onAction="#replay" layoutX="622.0" layoutY="17.0" mnemonicParsing="false" text="Recommencer" />
+            </buttons>
+        </ButtonBar>
+    </children>
+</AnchorPane>

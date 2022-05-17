@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="788.0" styleClass="sea" stylesheets="@FirstMap.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.ensicaen.genielogiciel.mvp.view.ChoiceView">
+   <children>
+      <VBox layoutX="-5.0" layoutY="29.0" prefHeight="530.0" prefWidth="788.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="29.0">
+         <children>
+
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="148.0" prefWidth="788.0">
+                     <children>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="14.0" prefHeight="42.0" prefWidth="774.0" style="-fx-border-style: solid; -fx-border-radius: 10px;" text="Sail" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="14.0">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <CheckBox fx:id="_checkMedium" layoutX="271.0" layoutY="73.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Medium" AnchorPane.leftAnchor="271.0" AnchorPane.rightAnchor="394.0" AnchorPane.topAnchor="73.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="_checkLarge" layoutX="444.0" layoutY="73.0" mnemonicParsing="false" text="Large" AnchorPane.rightAnchor="262.0" AnchorPane.topAnchor="73.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="136.0" prefWidth="788.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="14.0" prefHeight="35.0" prefWidth="781.0" style="-fx-border-style: solid; -fx-border-radius: 10px;" text="Crew" textAlignment="CENTER" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="14.0">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <CheckBox fx:id="_checkTwoMembers" layoutX="271.0" layoutY="66.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="2" AnchorPane.rightAnchor="457.0" AnchorPane.topAnchor="66.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="_checkFourMembers" layoutX="445.0" layoutY="66.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="4" AnchorPane.rightAnchor="283.0" AnchorPane.topAnchor="66.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="139.0" prefWidth="791.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="14.0" prefHeight="35.0" prefWidth="781.0" style="-fx-border-style: solid; -fx-border-radius: 10px;" text="Map" textAlignment="CENTER" AnchorPane.leftAnchor="7.0" AnchorPane.topAnchor="14.0">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <CheckBox fx:id="_checkEtretat" layoutX="349.0" layoutY="88.0" mnemonicParsing="false" text="Etretat" AnchorPane.rightAnchor="348.0" AnchorPane.topAnchor="88.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="_checkOuistreham" layoutX="490.0" layoutY="88.0" mnemonicParsing="false" text="Ouistreham" AnchorPane.rightAnchor="166.0" AnchorPane.topAnchor="88.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="_checkNice" layoutX="220.0" layoutY="88.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Nice">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                     </children>
+                  </AnchorPane>
+
+            <AnchorPane prefHeight="58.0" prefWidth="788.0">
+               <children>
+                  <Button layoutX="324.0" layoutY="87.0" mnemonicParsing="false" onAction="#gameView" prefHeight="26.0" prefWidth="154.0" text="Play" AnchorPane.leftAnchor="324.0" AnchorPane.rightAnchor="324.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

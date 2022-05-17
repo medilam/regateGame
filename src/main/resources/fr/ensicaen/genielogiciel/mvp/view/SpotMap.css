@@ -1,0 +1,13 @@
+.water {
+    -fx-background-image:url('Etretat.jpg');
+    -fx-background-size: 100% 100%;
+}
+
+
+
+.boardLabel {
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-background-color: white;
+}
